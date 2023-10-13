@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    background: url(https://wallpapercave.com/wp/wp8431304.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+    ;
+  
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 100vh;
+   
+}
+#btn{
+    background-color: bisque;
+    padding: 20px;
+    border: transparent;
+    border-radius: 20px;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-top: 230px;
+}
